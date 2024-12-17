@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+    text-align: center;
+  
+  }
+    
+:root {
+
+  font-size: 62.5%;
+    
+}
+
+
+body {
+    
+ background: linear-gradient(90deg, rgba(2, 36, 80, 1) 0%, rgba(50, 115, 220, 1) 35%, rgba(102, 240, 255, 1) 100%);
+ 
+      
+}
+    
+    
+    h1 {
+    
+    text-align: center;
+    font-size: 3.6rem;
+    margin-bottom: 2.0rem;
+    font-family: 'poppins';
+    
+    }
+    
+    
+    label{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding: 1.6rem;
+    font-family: 'poppins';
+    font-weight: bold;
+    color:black;
+    margin-bottom: 5px;
+    
+    
+    }
+    
+    input[type=email]{
+    
+        width: 100%;
+        padding: 1.2rem 2.0rem;
+        margin: 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        gap: 1.6rem;
+    
+    }
+    
+    #container {
+        
+        width: 36rem;
+        height: 71.2rem;
+        margin: 5.6rem auto 0rem;
+    }
+    
+    .avatar {
+    
+     width: 11.2rem;
+        
+    }
+    
+    
+    .imgcontainer {
+        text-align: center;
+        margin-top: .8rem;
+        padding: 2.4rem;
+        width: 36.0rem;
+        
+      }
+    
+    
+    form {
+    
+    background-color: #bbceda73;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    
+    }
+    
+    
+      button {
+    
+        background-color: #000080;
+        color: white;
+        padding: 1.4rem 1.2rem;
+        margin: .8rem 0;
+        border: none;
+        cursor: pointer;
+        transition: .5s;
+        width: 100%;
+    }
+    
+    button:hover{
+    opacity: 0.8;
+    }
+    
+    
+    .waving{
+    font-size: 3.2rem;
+    
+    }
+    
+    .waving:before{
+      content: attr(data-hover);
+    }
+    
+    .waving:hover{
+    
+    animation-name:wave-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    
+    }
+    
+    @keyframes wave-animation{
+    
+    0%{
+    transform:rotate(0.0deg)
+    }
+    
+    10%{
+    transform:rotate(14.0deg)
+    }
+    
+    20%{
+    transform:rotate(-8.0deg)
+    }
+    
+    30%{
+    transform: rotate(14.0deg); 
+    }
+    
+    40%{
+    transform: rotate(-4.0deg)
+    }
+    
+    50%{
+    transform: rotate(10.0deg)
+    }
+    
+    60%{
+    transform:rotate(0.0deg)
+    }
+    
+    100%{
+    transform:rotate(0.0deg)
+    }
+    }
